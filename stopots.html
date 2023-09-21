@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopots</title>
+</head>
+<body>
+    <!-- Tela inicial -->
+    <div id="tela-inicial">
+        <h1>Bem-vindo ao Stopots!</h1>
+        <p>Por favor, insira seu nome:</p>
+        <input type="text" id="nome">
+        <button onclick="iniciarJogo()">Iniciar Jogo</button>
+    </div>
+
+    <!-- Tela de confirmação -->
+    <div id="tela-confirmacao" style="display: none;">
+        <h2>O jogador <span id="nome-jogador"></span> foi registrado!</h2>
+        <p>Seu nome foi gravado na sessão.</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
